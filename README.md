@@ -20,6 +20,10 @@ Estatisticas
 * Um usuário vai acessar uma página web
 * Essa página web vai coletar estatísticas e enviar para o servidor
 
+```bash
+docker run --name my-analytics-mongo -p 27017:27017 -e MONGO_INITDB_ROOT_USERNAME=root -e MONGO_INITDB_ROOT_PASSWORD=passwd -d mongo:7
+```
+
 ## Desing
 
 * Vou ter uma código front-end enviando mensagens para minha API
