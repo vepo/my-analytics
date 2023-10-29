@@ -50,7 +50,7 @@ function retrieveUserId() {
                 userId: retrieveUserId()
             })
         })
-            .then(response => console.log(`Respomse ${response.statusText}`))
+            .then(response => console.log(`Response ${response.statusText}`))
             .catch(error => console.error(`ERROR: ${error}`))
 
     ;
